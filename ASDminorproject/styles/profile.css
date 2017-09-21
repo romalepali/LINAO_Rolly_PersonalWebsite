@@ -1,0 +1,278 @@
+body {
+	background-color: white;
+}
+
+#cover {
+	top: 0px;
+	position: absolute;
+}
+
+#coverimg {
+	box-shadow: 0px 5px 10px grey;
+	width: 1335px;
+}
+
+#resume {
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 5px 10px grey;
+	width: 1275px;
+	height: 1600px;
+	left: 30px;
+	top: 30px;
+	z-index: 1;
+}
+
+#content {
+	position: absolute;
+	height: 1665px;
+	width: 1335px;
+	top: 174.5px;
+	margin-bottom: 10px;
+	background-color: rgba(0,0,0,.25);
+}
+
+#home {
+	text-decoration: none;
+	color: black;
+}
+
+#link1 {
+	position: absolute;
+	border-radius: 20px 20px 0px 0px;
+	background-color: rgba(255,255,255,.8);
+	width: 100px;
+	height: 28px;
+	top: 135px;
+	left: 10px;
+	text-align: center;
+	padding-top: 12px;
+	z-index: 1;
+}
+
+#link1:hover {
+	box-shadow: 0px 5px 25px white;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+}
+
+#link1:active {
+	background-color: rgba(0,0,0,.8);
+}
+
+#prof {
+	text-decoration: none;
+	color: white;
+}
+
+#link2 {
+	box-shadow: 0px 5px 25px white;
+	position: absolute;
+	border-radius: 20px 20px 0px 0px;
+	background-color: rgba(0,0,0,.8);
+	width: 100px;
+	height: 28px;
+	top: 135px;
+	left: 115px;
+	text-align: center;
+	padding-top: 12px;
+	z-index: 1;
+}
+
+#link2:hover {
+	box-shadow: 0px 5px 25px white;
+	background-color: rgba(0,0,0,.8);
+}
+
+#link2:active {
+	background-color: rgba(0,0,0,.8);
+}
+
+#gallery {
+	text-decoration: none;
+	color: black;
+}
+
+#link3 {
+	position: absolute;
+	border-radius: 20px 20px 0px 0px;
+	background-color: rgba(255,255,255,.8);
+	width: 100px;
+	height: 28px;
+	top: 135px;
+	left: 220px;
+	text-align: center;
+	padding-top: 12px;
+	z-index: 1;
+}
+
+#link3:hover {
+	box-shadow: 0px 5px 25px white;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+}
+
+#link3:active {
+	background-color: rgba(0,0,0,.8);
+}
+
+#about {
+	text-decoration: none;
+	color: black;
+}
+
+#link4 {
+	position: absolute;
+	border-radius: 20px 20px 0px 0px;
+	background-color: rgba(255,255,255,.8);
+	width: 100px;
+	height: 28px;
+	top: 135px;
+	left: 325px;
+	text-align: center;
+	padding-top: 12px;
+	z-index: 1;
+}
+
+#link4:hover {
+	box-shadow: 0px 5px 25px white;
+	background-color: rgba(0,0,0,.8);
+	color: white;
+}
+
+#link4:active {
+	background-color: rgba(0,0,0,.8);
+}
+
+#details {
+	position: absolute;
+	box-shadow: 0px 5px 10px grey;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgba(255,255,255,.5);
+	width: 1285px;
+	height: 1645px;
+	top: 10px;
+	left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#respic {
+	position: absolute;
+	left: 925px;
+	top: 150px;
+	width: 250px;
+	height: 250px;
+	border-style: solid;
+	border-width: 2.5px;
+	z-index: 1;
+}
+
+#pic {
+	width: 250px;
+	height: 250px;
+}
+
+#name {
+	position: absolute;
+	height: 50px;
+	width: 750px;
+	top: 135px;
+	left: 150px;
+	z-index: 1;
+	font-size: 1.1em;
+	border-bottom: solid;
+	border-width: 2.5px;
+}
+
+#personal {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	font-size: 1.7em;
+	z-index: 1;
+}
+
+#object {
+	position: absolute;
+	height: 50px;
+	width: 1030px;
+	top: 425px;
+	left: 150px;
+	z-index: 1;
+	font-size: 1.1em;
+	border-bottom: solid;
+	border-width: 2.5px;
+}
+
+#objectives {
+	position: absolute;
+	width: 1030px;
+	top: 460px;
+	left: 150px;
+	font-size: 1.7em;
+	z-index: 1;
+}
+
+#skills {
+	position: absolute;
+	height: 50px;
+	width: 1030px;
+	top: 580px;
+	left: 150px;
+	z-index: 1;
+	font-size: 1.1em;
+	border-bottom: solid;
+	border-width: 2.5px;
+}
+
+#skill {
+	position: absolute;
+	width: 1030px;
+	top: 620px;
+	left: 150px;
+	font-size: 1.8em;
+	z-index: 1;
+}
+
+#educs {
+	position: absolute;
+	height: 50px;
+	width: 1030px;
+	top: 875px;
+	left: 150px;
+	z-index: 1;
+	font-size: 1.1em;
+	border-bottom: solid;
+	border-width: 2.5px;
+}
+
+#educ {
+	position: absolute;
+	width: 1030px;
+	top: 940px;
+	left: 175px;
+	font-size: 1.6em;
+	z-index: 1;
+}
+
+#achieves {
+	position: absolute;
+	height: 50px;
+	width: 1030px;
+	top: 1060px;
+	left: 150px;
+	z-index: 1;
+	font-size: 1.1em;
+	border-bottom: solid;
+	border-width: 2.5px;
+}
+
+#achieve {
+	position: absolute;
+	width: 1030px;
+	top: 1100px;
+	left: 150px;
+	font-size: 1.6em;
+	z-index: 1;
+}
