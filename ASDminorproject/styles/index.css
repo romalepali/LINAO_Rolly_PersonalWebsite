@@ -12,6 +12,17 @@ body {
 	width: 1335px;
 }
 
+#title {
+	position: absolute;
+	top: 50px;
+	left: 425px;
+	z-index: 1;
+	color: white;
+	font-size: 3em;
+	text-shadow: 0px 0px 5px black;
+	opacity: .5;
+}
+
 #profile1 {
 	position: absolute;
 	box-shadow: 0px 5px 10px grey;
@@ -23,6 +34,10 @@ body {
 	z-index: 1;
 }
 
+#profile1:hover {
+	box-shadow: 0px 5px 10px black;
+}
+
 #profile2 {
 	position: absolute;
 	box-shadow: 0px 5px 10px grey;
@@ -32,6 +47,10 @@ body {
 	left: 20px;
 	top: 315px;
 	z-index: 1;
+}
+
+#profile2:hover {
+	box-shadow: 0px 5px 10px black;
 }
 
 #profileimg {
@@ -174,6 +193,10 @@ body {
 	padding-left: 15px;
 }
 
+#update1:hover {
+	box-shadow: 0px 5px 10px black;
+}
+
 #update2 {
 	position: absolute;
 	box-shadow: 0px 5px 10px grey;
@@ -186,4 +209,8 @@ body {
 	text-align: center;
 	padding-right: 15px;
 	padding-left: 15px;
+}
+
+#update2:hover {
+	box-shadow: 0px 5px 10px black;
 }

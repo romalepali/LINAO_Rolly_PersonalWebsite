@@ -12,6 +12,17 @@ body {
 	width: 1335px;
 }
 
+#title {
+	position: absolute;
+	top: 50px;
+	left: 425px;
+	z-index: 1;
+	color: white;
+	font-size: 3em;
+	text-shadow: 0px 0px 5px black;
+	opacity: .5;
+}
+
 #resume {
 	position: absolute;
 	background-color: white;
