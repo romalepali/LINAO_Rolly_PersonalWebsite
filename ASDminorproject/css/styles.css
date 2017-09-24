@@ -6,7 +6,6 @@ body {
 }
 
 #navbar {
-	overflow: hidden;
     background-color: rgb(192,2,1);
     box-shadow: 0px 5px 50px black;
     position: fixed;
@@ -19,7 +18,75 @@ body {
 
 .linkposition {
 	position: absolute;
-	left: 155px;
+	left: 153px;
+}
+
+.homebutton {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.homebutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+.gallerybutton {
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.gallerybutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+.interestbutton {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.interestbutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+.aboutbutton {
+	position: absolute;
+	top: 0px;
+	left: 450px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.aboutbutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
 }
 
 #navbar a {
@@ -27,7 +94,7 @@ body {
     display: block;
     color: rgb(255,255,255);
     text-align: center;
-    padding: 15px 50px;
+    padding: 15px 0px;
     font-family: Arial;
     font-size: 1.1em;
     text-decoration: none;
