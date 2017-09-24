@@ -456,7 +456,7 @@ body {
 #educationinfo {
 	position: absolute;
 	left: 320px;
-	top: 445px;
+	top: 480px;
 	width: 713px;
 	height: 425px;
 	box-shadow: 0px 5px 10px black;
@@ -579,7 +579,7 @@ body {
 #interest {
 	position: absolute;
 	left: 320px;
-	top: 880px;
+	top: 950px;
 	width: 713px;
 	height: 225px;
 	box-shadow: 0px 5px 10px black;
@@ -594,7 +594,7 @@ body {
 
 .interestlogo {
 	position: absolute;
-	top: 15px;
+	top: 12px;
 	left: 25px;
 }
 
@@ -699,5 +699,111 @@ body {
 	height: 55px;
 	top: 120px;
 	left: 580px;
+	font-family: Arial;
+}
+
+#social {
+	position: absolute;
+	left: 320px;
+	top: 1220px;
+	width: 713px;
+	height: 225px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.socialhead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.sociallogo {
+	position: absolute;
+	top: 12px;
+	left: 25px;
+}
+
+.socialtitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.facebook {
+	background-image: url("../images/facebook1.png"); 
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 130px;
+	left: 145px;
+}
+
+.facebook:hover {
+	background-image: url("../images/facebook2.png"); 
+	width: 55px;
+	top: 125px;
+	left: 140px;
+	height: 55px;
+}
+
+.googleplus {
+	background-image: url("../images/googleplus1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 285px;
+}
+
+.googleplus:hover {
+	background-image: url("../images/googleplus2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 280px;
+}
+
+.instagram {
+	background-image: url("../images/instagram1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 435px;
+	font-family: Arial;
+}
+
+.instagram:hover {
+	background-image: url("../images/instagram2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 430px;
+	font-family: Arial;
+}
+
+.twitter {
+	background-image: url("../images/twitter1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 575px;
+	font-family: Arial;
+}
+
+.twitter:hover {
+	background-image: url("../images/twitter2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 570px;
 	font-family: Arial;
 }
