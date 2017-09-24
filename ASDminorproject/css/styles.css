@@ -23,7 +23,7 @@ body {
 }
 
 .profile {
-	background-image: url("../images/profile.jpg");
+	background-image: url("../images/profile1.png");
 	width: 300px;
 	height: 300px;
 	font-family: Arial;
@@ -31,12 +31,28 @@ body {
 	box-shadow: 0px 2px 5px black;
 }
 
+.profile:hover {
+	background-image: url("../images/profile2.png");
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	box-shadow: 0px 10px 20px black;
+	left: -15px;
+	z-index: 1;
+}
+
+.profile:hover .name, .profile:hover .position {
+	visibility: hidden;
+}
+
 .gallery {
 	position: absolute;
 	color: white;
 	font-size: 2em;
-	top: 150px;
-	left: 68px;
+	top: 170px;
+	left: 85px;
 	visibility: hidden;
 }
 
