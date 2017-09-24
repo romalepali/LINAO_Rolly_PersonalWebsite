@@ -1,0 +1,441 @@
+body {
+	background-image: url("../images/cover.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+#container {
+	margin: auto;
+	position: relative;
+    width: 1024px;
+    height: 1435px;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0px 5px 50px black;
+    padding: 10px;
+}
+
+.personalinfo {
+	background-color: rgba(192,2,1,.8);
+	width: 300px;
+	height: 1435px;
+	box-shadow: 0px 5px 10px black;
+}
+
+.profile {
+	background-image: url("../images/profile.jpg");
+	width: 300px;
+	height: 300px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	box-shadow: 0px 2px 5px black;
+}
+
+.name {
+	position: absolute;
+	top: 235px;
+	left: 75px;
+	color: white;
+	font-size: 1.5em;
+}
+
+.position {
+	position: absolute;
+	top: 240px;
+	left: 75px;
+	color: white;
+	font-size: 1.2em;
+}
+
+.description {
+	position: absolute;
+	top: 310px;
+	width: 300px;
+	height: 140px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.userlogo {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+
+.intro {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 23px;
+}
+
+.contact {
+	position: absolute;
+	top: 450px;
+	width: 300px;
+	height: 170px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.contactlogo {
+	position: absolute;
+	top: 29px;
+	left: 20px;
+}
+
+.contact1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 30px;
+	font-size: 1.2em;
+}
+
+.mobile1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 55px;
+}
+
+.contact2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 100px;
+	font-size: 1.2em;
+}
+
+.mobile2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 125px;
+}
+
+.email {
+	position: absolute;
+	top: 623px;
+	width: 300px;
+	height: 170px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.emaillogo {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.email1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 30px;
+	font-size: 1.1em;
+}
+
+.email1 a, .email2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.personal1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 55px;
+}
+
+.email2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 100px;
+	font-size: 1.1em;
+}
+
+.personal2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 125px;
+}
+
+.address {
+	position: absolute;
+	top: 795px;
+	width: 300px;
+	height: 260px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.addresslogo {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.address1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 30px;
+	font-size: 1.1em;
+}
+
+.current {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 75px;
+}
+
+.address2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 120px;
+	font-size: 1.1em;
+}
+
+.home {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 210px;
+}
+
+.skills {
+	position: absolute;
+	top: 1055px;
+	width: 300px;
+	height: 390px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.skillslogo {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.skillstitle {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 27px;
+	font-size: 1.3em;
+}
+
+.skill1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 70px;
+	font-size: 1.1em;
+}
+
+.level1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 95px;
+}
+
+.skill2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 130px;
+	font-size: 1.1em;
+}
+
+.level2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 155px;
+}
+
+.skill3 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 190px;
+	font-size: 1.1em;
+}
+
+.level3 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 215px;
+}
+
+.skill4 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 255px;
+	font-size: 1.1em;
+}
+
+.level4 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 280px;
+}
+
+.skill5 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 320px;
+	font-size: 1.1em;
+}
+
+.level5 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 345px;
+}
+
+#workinfo {
+	position: absolute;
+	left: 320px;
+	top: 10px;
+	width: 713px;
+	height: 425px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.workhead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.worklogo {
+	position: absolute;
+	top: 14px;
+	left: 25px;
+}
+
+.worktitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.work1 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 125px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.workposition1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.workdate1 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.workaddress1 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.work2 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 215px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.workposition2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.workdate2 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.workaddress2 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.work3 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 305px;
+	left: 130px;
+	font-family: Arial;
+}
+
+.workposition3 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.workdate3 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.workaddress3 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
