@@ -618,8 +618,17 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	color: rgb(124,124,124);
 	font-size: 1.3em;
+}
+
+.educationyear1 a {
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+
+.educationyear1:hover a {
+	color: rgb(192,2,1);
+	text-decoration: none;
 }
 
 .educationdate1 {
@@ -649,8 +658,17 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	color: rgb(124,124,124);
 	font-size: 1.3em;
+}
+
+.educationyear2 a {
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+
+.educationyear2:hover a {
+	color: rgb(192,2,1);
+	text-decoration: none;
 }
 
 .educationdate2 {
@@ -679,8 +697,17 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	color: rgb(124,124,124);
 	font-size: 1.3em;
+}
+
+.educationyear3 a {
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+
+.educationyear3:hover a {
+	color: rgb(192,2,1);
+	text-decoration: none;
 }
 
 .educationdate3 {
