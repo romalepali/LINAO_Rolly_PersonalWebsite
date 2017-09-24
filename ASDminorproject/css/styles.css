@@ -16,6 +16,13 @@ body {
     z-index: 1;
 }
 
+.center {
+	margin: auto;
+	position: relative;
+	left: 50%;
+    top: 0px;
+}
+
 .linkposition {
 	position: absolute;
 	left: 153px;
@@ -24,7 +31,7 @@ body {
 .homebutton {
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: -675px;
 	height: 20px;
 	padding: 15px 0px;
 	width: 150px;
@@ -41,7 +48,7 @@ body {
 .gallerybutton {
 	position: absolute;
 	top: 0px;
-	left: 150px;
+	left: -525px;
 	height: 20px;
 	padding: 15px 0px;
 	width: 150px;
@@ -58,7 +65,7 @@ body {
 .interestbutton {
 	position: absolute;
 	top: 0px;
-	left: 300px;
+	left: -375px;
 	height: 20px;
 	padding: 15px 0px;
 	width: 150px;
@@ -75,7 +82,7 @@ body {
 .aboutbutton {
 	position: absolute;
 	top: 0px;
-	left: 450px;
+	left: -225px;
 	height: 20px;
 	padding: 15px 0px;
 	width: 150px;
@@ -102,7 +109,7 @@ body {
 
 .logo {
 	position: absolute;
-	left: 50px;
+	left: -625px;
 	top: 4px;
 	z-index: 1;
 }
