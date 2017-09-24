@@ -5,11 +5,40 @@ body {
 	background-size: cover;
 }
 
+#navbar {
+	overflow: hidden;
+    background-color: rgb(192,2,1);
+    box-shadow: 0px 5px 50px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.linkposition {
+	position: absolute;
+	left: 155px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 10px 50px;
+    font-family: Arial;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
 #container {
 	margin: auto;
 	position: relative;
     width: 1024px;
     height: 1435px;
+    top: 32px;
     background-color: rgba(255,255,255,.3);
     box-shadow: 0px 5px 50px black;
     padding: 10px;
