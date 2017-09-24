@@ -439,3 +439,126 @@ body {
 	top: 60px;
 	left: 10px;
 }
+
+#educationinfo {
+	position: absolute;
+	left: 320px;
+	top: 445px;
+	width: 713px;
+	height: 425px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.educationhead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.educationlogo {
+	position: absolute;
+	top: 7px;
+	left: 25px;
+}
+
+.educationtitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.education1 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 125px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.educationyear1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.educationdate1 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.educationaddress1 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.education2 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 215px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.educationyear2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.educationdate2 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.educationaddress2 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.education3 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 305px;
+	left: 130px;
+	font-family: Arial;
+}
+
+.educationyear3 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.educationdate3 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.educationaddress3 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
