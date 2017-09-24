@@ -29,6 +29,11 @@ body {
 	font-family: Arial;
 	text-shadow: 0px 2px 5px black;
 	box-shadow: 0px 2px 5px black;
+	opacity: .75;
+}
+
+.profile:hover {
+	opacity: 1;
 }
 
 .name {
