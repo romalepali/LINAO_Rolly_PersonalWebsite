@@ -562,3 +562,129 @@ body {
 	top: 60px;
 	left: 10px;
 }
+
+#interest {
+	position: absolute;
+	left: 320px;
+	top: 880px;
+	width: 713px;
+	height: 225px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.interesthead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.interestlogo {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+.interesttitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.interest1 {
+	background-image: url("../images/interest1_1.png"); 
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 130px;
+	left: 145px;
+}
+
+.interest1:hover {
+	background-image: url("../images/interest1_2.png"); 
+	width: 55px;
+	top: 125px;
+	left: 140px;
+	height: 55px;
+}
+
+.interest2 {
+	background-image: url("../images/interest2_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 255px;
+}
+
+.interest2:hover {
+	background-image: url("../images/interest2_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 250px;
+}
+
+.interest3 {
+	background-image: url("../images/interest3_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 365px;
+	font-family: Arial;
+}
+
+.interest3:hover {
+	background-image: url("../images/interest3_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 360px;
+	font-family: Arial;
+}
+
+.interest4 {
+	background-image: url("../images/interest4_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 475px;
+	font-family: Arial;
+}
+
+.interest4:hover {
+	background-image: url("../images/interest4_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 470px;
+	font-family: Arial;
+}
+
+.interest5 {
+	background-image: url("../images/interest5_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 125px;
+	left: 585px;
+	font-family: Arial;
+}
+
+.interest5:hover {
+	background-image: url("../images/interest5_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 120px;
+	left: 580px;
+	font-family: Arial;
+}
