@@ -1,3 +1,4 @@
+/*Background*/
 body {
 	background-image: url("../images/cover.png");
     background-repeat: no-repeat;
@@ -5,6 +6,7 @@ body {
 	background-size: cover;
 }
 
+/*Navigation*/
 #navbar {
     background-color: rgb(192,2,1);
     box-shadow: 0px 5px 50px black;
@@ -114,6 +116,7 @@ body {
 	z-index: 1;
 }
 
+/*Home*/
 #container {
 	margin: auto;
 	margin-bottom: 50px;
@@ -126,6 +129,7 @@ body {
     padding: 10px;
 }
 
+/*Personal Info*/
 .personalinfo {
 	background-color: rgba(192,2,1,.8);
 	width: 300px;
@@ -457,6 +461,7 @@ body {
 	top: 345px;
 }
 
+/*Work Experience*/
 #workinfo {
 	position: absolute;
 	left: 320px;
@@ -580,6 +585,8 @@ body {
 	left: 10px;
 }
 
+
+/*Educational Attainment*/
 #educationinfo {
 	position: absolute;
 	left: 320px;
@@ -730,6 +737,7 @@ body {
 	left: 10px;
 }
 
+/*Interests*/
 #interest {
 	position: absolute;
 	left: 320px;
@@ -856,6 +864,7 @@ body {
 	font-family: Arial;
 }
 
+/*Social Media Profiles*/
 #social {
 	position: absolute;
 	left: 320px;
@@ -970,4 +979,45 @@ body {
 	font-size: 1em;
 	top: 18px;
 	text-shadow: 0px 1px 2px black;
+}
+
+/*Gallery*/
+#gallery1 {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#gallery2 {
+	position: absolute;
+	left: 10px;
+	top: 320px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#gallery3 {
+	position: absolute;
+	left: 10px;
+	top: 630px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#gallery4 {
+	position: absolute;
+	left: 10px;
+	top: 940px;
+	width: 1023px;
+	height: 500px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
 }
