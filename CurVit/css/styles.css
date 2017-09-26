@@ -1041,6 +1041,7 @@ body {
 	width: 300px;
 	height: 300px;
 	background-image: url("../images/profile1.png");
+	opacity: .5;
 }
 
 .gal4pic1:hover {
@@ -1050,6 +1051,7 @@ body {
 	height: 350px;
 	box-shadow: 0px 5px 10px black;
 	background-image: url("../images/profile2.png");
+	opacity: 1;
 	z-index: 1;
 }
 
@@ -1060,6 +1062,7 @@ body {
 	width: 300px;
 	height: 300px;
 	background-image: url("../images/gal4pic1.png");
+	opacity: .5;
 }
 
 .gal4pic2:hover {
@@ -1069,6 +1072,7 @@ body {
 	height: 350px;
 	box-shadow: 0px 5px 10px black;
 	background-image: url("../images/gal4pic2.png");
+	opacity: 1;
 	z-index: 1;
 }
 
@@ -1079,6 +1083,7 @@ body {
 	width: 300px;
 	height: 300px;
 	background-image: url("../images/gal4pic3.png");
+	opacity: .5;
 }
 
 .gal4pic3:hover {
@@ -1088,6 +1093,7 @@ body {
 	height: 350px;
 	box-shadow: 0px 5px 10px black;
 	background-image: url("../images/gal4pic4.png");
+	opacity: 1;
 	z-index: 1;
 }
 
