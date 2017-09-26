@@ -1,0 +1,1155 @@
+/*Background*/
+body {
+	background-image: url("../images/cover.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+/*Navigation*/
+#navbar {
+    background-color: rgb(192,2,1);
+    box-shadow: 0px 5px 50px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+.center {
+	margin: auto;
+	position: relative;
+	left: 50%;
+    top: 0px;
+}
+
+.linkposition {
+	position: absolute;
+	left: 153px;
+}
+
+.homebutton {
+	position: absolute;
+	top: 0px;
+	left: -675px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.homebutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+.gallerybutton {
+	position: absolute;
+	top: 0px;
+	left: -525px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.gallerybutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+.interestbutton {
+	position: absolute;
+	top: 0px;
+	left: -375px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.interestbutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+.aboutbutton {
+	position: absolute;
+	top: 0px;
+	left: -225px;
+	height: 20px;
+	padding: 15px 0px;
+	width: 150px;
+	background: rgb(192,2,1);
+}
+
+.aboutbutton:hover {
+	height: 20px;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px black;
+	z-index: 1;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 15px 0px;
+    font-family: Arial;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.logo {
+	position: absolute;
+	left: -625px;
+	top: 4px;
+	z-index: 1;
+}
+
+/*Home*/
+#container {
+	margin: auto;
+	margin-bottom: 50px;
+	position: relative;
+    width: 1024px;
+    height: 1436px;
+    top: 50px;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0px 5px 50px black;
+    padding: 10px;
+}
+
+/*Personal Info*/
+.personalinfo {
+	background-color: rgba(192,2,1,.8);
+	width: 300px;
+	height: 1435px;
+	box-shadow: 0px 5px 10px black;
+}
+
+.profile {
+	background-image: url("../images/profile1.png");
+	width: 300px;
+	height: 300px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	box-shadow: 0px 2px 5px black;
+}
+
+.profile:hover {
+	background-image: url("../images/profile2.png");
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	box-shadow: 0px 10px 20px black;
+	left: -15px;
+	z-index: 1;
+}
+
+.profile:hover .name, .profile:hover .position {
+	visibility: hidden;
+}
+
+.gallery {
+	position: absolute;
+	color: white;
+	font-size: 2em;
+	top: 170px;
+	left: 85px;
+	visibility: hidden;
+}
+
+.profile:hover .gallery {
+	visibility: visible;
+}
+
+.name {
+	position: absolute;
+	top: 235px;
+	left: 75px;
+	color: white;
+	font-size: 1.5em;
+}
+
+.position {
+	position: absolute;
+	top: 240px;
+	left: 75px;
+	color: white;
+	font-size: 1.2em;
+}
+
+.description {
+	position: absolute;
+	top: 310px;
+	width: 300px;
+	height: 140px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.userlogo {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+
+.intro {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 23px;
+}
+
+.contact {
+	position: absolute;
+	top: 450px;
+	width: 300px;
+	height: 170px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.contactlogo {
+	position: absolute;
+	top: 29px;
+	left: 20px;
+}
+
+.contact1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 30px;
+	font-size: 1.2em;
+}
+
+.mobile1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 55px;
+}
+
+.contact2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 100px;
+	font-size: 1.2em;
+}
+
+.mobile2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 125px;
+}
+
+.email {
+	position: absolute;
+	top: 623px;
+	width: 300px;
+	height: 170px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.emaillogo {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.email1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 30px;
+	font-size: 1.1em;
+}
+
+.email1 a, .email2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.personal1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 55px;
+}
+
+.email2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 100px;
+	font-size: 1.1em;
+}
+
+.personal2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 125px;
+}
+
+.address {
+	position: absolute;
+	top: 795px;
+	width: 300px;
+	height: 260px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.addresslogo {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.address1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 30px;
+	font-size: 1.1em;
+}
+
+.current {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 75px;
+}
+
+.address2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 120px;
+	font-size: 1.1em;
+}
+
+.home {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 210px;
+}
+
+.skills {
+	position: absolute;
+	top: 1055px;
+	width: 300px;
+	height: 390px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
+}
+
+.skillslogo {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.skillstitle {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 27px;
+	font-size: 1.3em;
+}
+
+.skill1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 70px;
+	font-size: 1.1em;
+}
+
+.level1 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 95px;
+}
+
+.skill2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 130px;
+	font-size: 1.1em;
+}
+
+.level2 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 155px;
+}
+
+.skill3 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 190px;
+	font-size: 1.1em;
+}
+
+.level3 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 215px;
+}
+
+.skill4 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 255px;
+	font-size: 1.1em;
+}
+
+.level4 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 280px;
+}
+
+.skill5 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 320px;
+	font-size: 1.1em;
+}
+
+.level5 {
+	position: absolute;
+	width: 200px;
+	left: 65px;
+	top: 345px;
+}
+
+/*Work Experience*/
+#workinfo {
+	position: absolute;
+	left: 320px;
+	top: 10px;
+	width: 713px;
+	height: 425px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.workhead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.worklogo {
+	position: absolute;
+	top: 14px;
+	left: 25px;
+}
+
+.worktitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.work1 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 125px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.workposition1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.workdate1 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.workaddress1 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.work2 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 215px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.workposition2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.workdate2 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.workaddress2 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.work3 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 305px;
+	left: 130px;
+	font-family: Arial;
+}
+
+.workposition3 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
+
+.workdate3 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.workaddress3 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+
+/*Educational Attainment*/
+#educationinfo {
+	position: absolute;
+	left: 320px;
+	top: 480px;
+	width: 713px;
+	height: 425px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.educationhead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.educationlogo {
+	position: absolute;
+	top: 7px;
+	left: 25px;
+}
+
+.educationtitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.education1 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 125px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.educationyear1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.3em;
+}
+
+.educationyear1 a {
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+
+.educationyear1:hover a {
+	color: rgb(192,2,1);
+	text-decoration: none;
+}
+
+.educationdate1 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.educationaddress1 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.education2 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 215px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+
+.educationyear2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.3em;
+}
+
+.educationyear2 a {
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+
+.educationyear2:hover a {
+	color: rgb(192,2,1);
+	text-decoration: none;
+}
+
+.educationdate2 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.educationaddress2 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+.education3 {
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 305px;
+	left: 130px;
+	font-family: Arial;
+}
+
+.educationyear3 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.3em;
+}
+
+.educationyear3 a {
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+
+.educationyear3:hover a {
+	color: rgb(192,2,1);
+	text-decoration: none;
+}
+
+.educationdate3 {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+
+.educationaddress3 {
+	position: absolute;;
+	top: 60px;
+	left: 10px;
+}
+
+/*Interests*/
+#interest {
+	position: absolute;
+	left: 320px;
+	top: 950px;
+	width: 713px;
+	height: 225px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.interesthead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.interestlogo {
+	position: absolute;
+	top: 12px;
+	left: 25px;
+}
+
+.interesttitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.interest1 {
+	background-image: url("../images/interest1_1.png"); 
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 130px;
+	left: 145px;
+}
+
+.interest1:hover {
+	background-image: url("../images/interest1_2.png"); 
+	width: 55px;
+	top: 125px;
+	left: 140px;
+	height: 55px;
+}
+
+.interest2 {
+	background-image: url("../images/interest2_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 255px;
+}
+
+.interest2:hover {
+	background-image: url("../images/interest2_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 250px;
+}
+
+.interest3 {
+	background-image: url("../images/interest3_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 365px;
+	font-family: Arial;
+}
+
+.interest3:hover {
+	background-image: url("../images/interest3_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 360px;
+	font-family: Arial;
+}
+
+.interest4 {
+	background-image: url("../images/interest4_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 475px;
+	font-family: Arial;
+}
+
+.interest4:hover {
+	background-image: url("../images/interest4_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 470px;
+	font-family: Arial;
+}
+
+.interest5 {
+	background-image: url("../images/interest5_1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 125px;
+	left: 585px;
+	font-family: Arial;
+}
+
+.interest5:hover {
+	background-image: url("../images/interest5_2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 120px;
+	left: 580px;
+	font-family: Arial;
+}
+
+/*Social Media Profiles*/
+#social {
+	position: absolute;
+	left: 320px;
+	top: 1220px;
+	width: 713px;
+	height: 225px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.socialhead {
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.sociallogo {
+	position: absolute;
+	top: 12px;
+	left: 25px;
+}
+
+.socialtitle {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	font-family: Arial;
+	font-size: 2em;
+	color: rgb(124,124,124);
+}
+
+.facebook {
+	background-image: url("../images/facebook1.png"); 
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 130px;
+	left: 145px;
+}
+
+.facebook:hover {
+	background-image: url("../images/facebook2.png"); 
+	width: 55px;
+	top: 125px;
+	left: 140px;
+	height: 55px;
+}
+
+.googleplus {
+	background-image: url("../images/googleplus1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 285px;
+}
+
+.googleplus:hover {
+	background-image: url("../images/googleplus2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 280px;
+}
+
+.instagram {
+	background-image: url("../images/instagram1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 435px;
+	font-family: Arial;
+}
+
+.instagram:hover {
+	background-image: url("../images/instagram2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 430px;
+	font-family: Arial;
+}
+
+.twitter {
+	background-image: url("../images/twitter1.png"); 
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 130px;
+	left: 575px;
+	font-family: Arial;
+}
+
+.twitter:hover {
+	background-image: url("../images/twitter2.png"); 
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 125px;
+	left: 570px;
+	font-family: Arial;
+}
+
+#footer {
+	position: relative;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	font-size: 1em;
+	top: 18px;
+	text-shadow: 0px 1px 2px black;
+}
+
+/*Gallery*/
+#container2 {
+	margin: auto;
+	margin-bottom: 50px;
+	position: relative;
+    width: 1024px;
+    height: 1232px;
+    top: 50px;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0px 5px 50px black;
+    padding: 10px;
+}
+
+#gallery1 {
+	position: absolute;
+	left: 70px;
+	top: 10px;
+	width: 900px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#gallery2 {
+	position: absolute;
+	left: 70px;
+	top: 320px;
+	width: 900px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#gallery3 {
+	position: absolute;
+	left: 70px;
+	top: 630px;
+	width: 900px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#gallery4 {
+	position: absolute;
+	left: 70px;
+	top: 940px;
+	width: 900px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+.gal4pic1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/profile1.png");
+}
+
+.gal4pic1:hover {
+	top: -25px;
+	left: -25px;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 10px black;
+	background-image: url("../images/profile2.png");
+	z-index: 1;
+}
+
+.gal4pic2 {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/gal4pic1.png");
+}
+
+.gal4pic2:hover {
+	top: -25px;
+	left: 275px;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 10px black;
+	background-image: url("../images/gal4pic2.png");
+	z-index: 1;
+}
+
+.gal4pic3 {
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/gal4pic3.png");
+}
+
+.gal4pic3:hover {
+	top: -25px;
+	left: 575px;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 10px black;
+	background-image: url("../images/gal4pic4.png");
+	z-index: 1;
+}
+
+/*Interests*/
+#container3 {
+	margin: auto;
+	margin-bottom: 50px;
+	position: relative;
+    width: 1024px;
+    height: 1542px;
+    top: 50px;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0px 5px 50px black;
+    padding: 10px;
+}
+
+#program {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#music {
+	position: absolute;
+	left: 10px;
+	top: 320px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#photo {
+	position: absolute;
+	left: 10px;
+	top: 630px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#edit {
+	position: absolute;
+	left: 10px;
+	top: 940px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
+
+#cook {
+	position: absolute;
+	left: 10px;
+	top: 1250px;
+	width: 1023px;
+	height: 300px;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(255,255,255,.8);
+}
