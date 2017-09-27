@@ -1259,6 +1259,72 @@ body {
 	background-color: rgba(255,255,255,.8);
 }
 
+.bruno {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/bruno1.png");
+	opacity: .5;
+}
+
+.bruno:hover {
+	top: -25px;
+	left: -25px;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 10px black;
+	background-image: url("../images/bruno2.png");
+	background-color: white; 
+	opacity: 1;
+	z-index: 1;
+}
+
+.ed {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/ed1.png");
+	opacity: .5;
+}
+
+.ed:hover {
+	top: -25px;
+	left: 275px;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 10px black;
+	background-image: url("../images/ed2.png");
+	background-color: white;
+	opacity: 1;
+	z-index: 1;
+}
+
+.tay {
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/tay1.png");
+	opacity: .5;
+}
+
+.tay:hover {
+	top: -25px;
+	left: 575px;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 10px black;
+	background-image: url("../images/tay2.png");
+	background-color: white;
+	opacity: 1;
+	z-index: 1;
+}
+
 #photo {
 	position: absolute;
 	left: 70px;
