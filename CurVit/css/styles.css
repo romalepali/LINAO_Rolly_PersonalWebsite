@@ -792,7 +792,7 @@ body {
 	width: 45px;
 	height: 45px;
 	top: 130px;
-	left: 255px;
+	left: 285px;
 }
 
 .interest2:hover {
@@ -801,7 +801,7 @@ body {
 	width: 55px;
 	height: 55px;
 	top: 125px;
-	left: 250px;
+	left: 280px;
 }
 
 .interest3 {
@@ -810,7 +810,7 @@ body {
 	width: 45px;
 	height: 45px;
 	top: 130px;
-	left: 365px;
+	left: 435px;
 	font-family: Arial;
 }
 
@@ -820,7 +820,7 @@ body {
 	width: 55px;
 	height: 55px;
 	top: 125px;
-	left: 360px;
+	left: 430px;
 	font-family: Arial;
 }
 
@@ -830,7 +830,7 @@ body {
 	width: 45px;
 	height: 45px;
 	top: 130px;
-	left: 475px;
+	left: 575px;
 	font-family: Arial;
 }
 
@@ -840,27 +840,7 @@ body {
 	width: 55px;
 	height: 55px;
 	top: 125px;
-	left: 470px;
-	font-family: Arial;
-}
-
-.interest5 {
-	background-image: url("../images/interest5_1.png"); 
-	position: absolute;
-	width: 45px;
-	height: 45px;
-	top: 125px;
-	left: 585px;
-	font-family: Arial;
-}
-
-.interest5:hover {
-	background-image: url("../images/interest5_2.png"); 
-	position: absolute;
-	width: 55px;
-	height: 55px;
-	top: 120px;
-	left: 580px;
+	left: 570px;
 	font-family: Arial;
 }
 
