@@ -1412,6 +1412,7 @@ body {
 	background-color: white; 
 	opacity: 1;
 	z-index: 1;
+	transition: all .5s ease;
 }
 
 .edit2 {
@@ -1434,6 +1435,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
+	transition: all .5s ease;
 }
 
 .edit3 {
@@ -1456,6 +1458,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
+	transition: all .5s ease;
 }
 
 /*About*/
