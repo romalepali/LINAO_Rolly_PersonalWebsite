@@ -1146,7 +1146,7 @@ body {
 	margin-bottom: 50px;
 	position: relative;
     width: 1024px;
-    height: 1542px;
+    height: 1230px;
     top: 50px;
     background-color: rgba(255,255,255,.3);
     box-shadow: 0px 5px 50px black;
@@ -1455,16 +1455,6 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-}
-
-#cook {
-	position: absolute;
-	left: 70px;
-	top: 1250px;
-	width: 900px;
-	height: 300px;
-	box-shadow: 0px 5px 10px black;
-	background-color: rgba(255,255,255,.8);
 }
 
 /*About*/
