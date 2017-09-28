@@ -45,6 +45,7 @@ body {
 	padding: 20px 0px;
 	box-shadow: 0px 0px 10px black;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .gallerybutton {
@@ -62,6 +63,7 @@ body {
 	padding: 20px 0px;
 	box-shadow: 0px 0px 10px black;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .interestbutton {
@@ -79,6 +81,7 @@ body {
 	padding: 20px 0px;
 	box-shadow: 0px 0px 10px black;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .aboutbutton {
@@ -96,6 +99,7 @@ body {
 	padding: 20px 0px;
 	box-shadow: 0px 0px 10px black;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 #navbar a {
@@ -139,6 +143,8 @@ body {
 
 .profile {
 	background-image: url("../images/profile1.png");
+	top: 10px;
+	left: 10px;
 	width: 300px;
 	height: 300px;
 	font-family: Arial;
@@ -149,30 +155,19 @@ body {
 .profile:hover {
 	background-image: url("../images/profile2.png");
 	position: absolute;
+	left: -15px;
+	top: -10px;
 	width: 350px;
 	height: 350px;
 	font-family: Arial;
 	text-shadow: 0px 2px 5px black;
 	box-shadow: 0px 10px 20px black;
-	left: -15px;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .profile:hover .name, .profile:hover .position {
 	visibility: hidden;
-}
-
-.gallery {
-	position: absolute;
-	color: white;
-	font-size: 2em;
-	top: 170px;
-	left: 85px;
-	visibility: hidden;
-}
-
-.profile:hover .gallery {
-	visibility: visible;
 }
 
 .name {
@@ -784,6 +779,7 @@ body {
 	top: 125px;
 	left: 140px;
 	height: 55px;
+	transition: all .2s ease;
 }
 
 .interest2 {
@@ -802,6 +798,7 @@ body {
 	height: 55px;
 	top: 125px;
 	left: 280px;
+	transition: all .2s ease;
 }
 
 .interest3 {
@@ -822,6 +819,7 @@ body {
 	top: 125px;
 	left: 430px;
 	font-family: Arial;
+	transition: all .2s ease;
 }
 
 .interest4 {
@@ -842,6 +840,7 @@ body {
 	top: 125px;
 	left: 570px;
 	font-family: Arial;
+	transition: all .2s ease;
 }
 
 /*Social Media Profiles*/
@@ -891,6 +890,7 @@ body {
 	top: 125px;
 	left: 140px;
 	height: 55px;
+	transition: all .2s ease;
 }
 
 .googleplus {
@@ -909,6 +909,7 @@ body {
 	height: 55px;
 	top: 125px;
 	left: 280px;
+	transition: all .2s ease;
 }
 
 .instagram {
@@ -929,6 +930,7 @@ body {
 	top: 125px;
 	left: 430px;
 	font-family: Arial;
+	transition: all .2s ease;
 }
 
 .twitter {
@@ -949,6 +951,7 @@ body {
 	top: 125px;
 	left: 570px;
 	font-family: Arial;
+	transition: all .2s ease;
 }
 
 #footer {
@@ -1023,6 +1026,7 @@ body {
 	background-image: url("../images/usep2.png");
 	opacity: 1;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .gal3pic2 {
@@ -1044,6 +1048,7 @@ body {
 	background-image: url("../images/usep4.png");
 	opacity: 1;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .gal3pic3 {
@@ -1066,6 +1071,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 #gallery4 {
@@ -1097,6 +1103,7 @@ body {
 	background-image: url("../images/profile2.png");
 	opacity: 1;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .gal4pic2 {
@@ -1118,6 +1125,7 @@ body {
 	background-image: url("../images/gal4pic2.png");
 	opacity: 1;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 .gal4pic3 {
@@ -1139,6 +1147,7 @@ body {
 	background-image: url("../images/gal4pic4.png");
 	opacity: 1;
 	z-index: 1;
+	transition: all .2s ease;
 }
 
 /*Interests*/
@@ -1184,7 +1193,7 @@ body {
 	background-color: white; 
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .java {
@@ -1207,7 +1216,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .html {
@@ -1230,7 +1239,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 #music {
@@ -1263,7 +1272,7 @@ body {
 	background-color: white; 
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .ed {
@@ -1286,7 +1295,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .tay {
@@ -1309,7 +1318,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 #photo {
@@ -1342,7 +1351,7 @@ body {
 	background-color: white; 
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .photo2 {
@@ -1365,7 +1374,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .photo3 {
@@ -1388,7 +1397,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 #edit {
@@ -1421,7 +1430,7 @@ body {
 	background-color: white; 
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .edit2 {
@@ -1444,7 +1453,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .edit3 {
@@ -1467,7 +1476,7 @@ body {
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 /*About*/
