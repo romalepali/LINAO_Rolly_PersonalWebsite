@@ -21,7 +21,7 @@ body {
 .center {
 	margin: auto;
 	position: relative;
-	left: 50%;
+	left: 680px;
     top: 0px;
 }
 
@@ -1054,6 +1054,21 @@ body {
 	transition: all .2s ease;
 }
 
+.gal1text {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 190px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.gal1text:hover {
+	visibility: hidden;
+}
+
 #gallery2 {
 	position: absolute;
 	left: 70px;
@@ -1131,6 +1146,21 @@ body {
 	transition: all .2s ease;
 }
 
+.gal2text {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 230px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.gal2text:hover {
+	visibility: hidden;
+}
+
 #gallery3 {
 	position: absolute;
 	left: 70px;
@@ -1191,21 +1221,36 @@ body {
 	left: 600px;
 	width: 300px;
 	height: 300px;
-	background-image: url("../images/useplogo1.png");
+	background-image: url("../images/usep5.png");
 	opacity: .5;
 }
 
 .gal3pic3:hover {
 	top: -25px;
-	left: 575px;
-	width: 350px;
+	left: 515px;
+	width: 467px;
 	height: 350px;
 	box-shadow: 0px 5px 10px black;
-	background-image: url("../images/useplogo2.png");
+	background-image: url("../images/usep6.png");
 	background-color: white;
 	opacity: 1;
 	z-index: 1;
 	transition: all .2s ease;
+}
+
+.gal3text {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 175px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.gal3text:hover {
+	visibility: hidden;
 }
 
 #gallery4 {
@@ -1282,6 +1327,21 @@ body {
 	opacity: 1;
 	z-index: 1;
 	transition: all .2s ease;
+}
+
+.gal4text {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 340px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.gal4text:hover {
+	visibility: hidden;
 }
 
 /*Interests*/
@@ -1376,6 +1436,21 @@ body {
 	transition: all .2s ease;
 }
 
+.programtext {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 270px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.programtext:hover {
+	visibility: hidden;
+}
+
 #music {
 	position: absolute;
 	left: 70px;
@@ -1453,6 +1528,21 @@ body {
 	opacity: 1;
 	z-index: 1;
 	transition: all .2s ease;
+}
+
+.musictext {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 345px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.musictext:hover {
+	visibility: hidden;
 }
 
 #photo {
@@ -1534,6 +1624,21 @@ body {
 	transition: all .2s ease;
 }
 
+.phototext {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 297px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.phototext:hover {
+	visibility: hidden;
+}
+
 #edit {
 	position: absolute;
 	left: 70px;
@@ -1613,13 +1718,28 @@ body {
 	transition: all .2s ease;
 }
 
+.edittext {
+	position: absolute;
+	font-size: 2em;
+	font-family: Arial;
+	color: white;
+	top: 130px;
+	left: 310px;
+	text-shadow: 0px 2px 5px black;
+	opacity: .8;
+}
+
+.edittext:hover {
+	visibility: hidden;
+}
+
 /*About*/
 #container4 {
 	margin: auto;
 	margin-bottom: 50px;
 	position: relative;
     width: 1024px;
-    height: 540px;
+    height: 575px;
     top: 50px;
     background-color: rgba(255,255,255,.3);
     box-shadow: 0px 5px 50px black;
@@ -1648,8 +1768,8 @@ body {
 	width: 1024px;
 	height: 224px;
 	left: 10px;
-	background-color: rgba(255,255,255,.5);
-	top: 325px;
+	background-color: rgba(255,255,255,.8);
+	top: 360px;
 	box-shadow: 0px 5px 10px black;
 }
 
@@ -1659,6 +1779,8 @@ body {
 	top: 10px;
 	left: 392px;
 	font-size: 1.6em;
+	color: white;
+	text-shadow: 0px 2px 5px black;
 }
 
 .contents {
@@ -1669,4 +1791,5 @@ body {
 	width: 1002px;
 	font-size: 1.2em;
 	text-align: justify;
+	color: gray;
 }
